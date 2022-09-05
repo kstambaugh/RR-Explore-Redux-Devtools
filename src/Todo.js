@@ -18,7 +18,7 @@ function Todo() {
         <div>
             <form onSubmit={(e) => submitForm(e)}>
                 <input type="text" onChange={(e) => setInput(e.target.value)} />
-                <button type="submit">Submit</button>
+                <button type="submit">Submit!</button>
             </form>
             <ul>
                 {renderItems}
